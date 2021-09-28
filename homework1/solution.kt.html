@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Main.kt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.kt</font>
+</center></td></tr></table>
+<pre><span class="s0">fun </span><span class="s1">main(args: Array&lt;String&gt;) {</span>
+
+       <span class="s1">print(</span><span class="s2">&quot;Insert First Number &quot;</span><span class="s1">)</span>
+    <span class="s0">val </span><span class="s1">number1: String? = readLine()</span>
+
+     <span class="s1">print(</span><span class="s2">&quot;Insert Second Number &quot;</span><span class="s1">)</span>
+     <span class="s0">val </span><span class="s1">number2 : String? = readLine()</span>
+
+     <span class="s1">print(</span><span class="s2">&quot;Insert Third Number &quot;</span><span class="s1">)</span>
+     <span class="s0">val </span><span class="s1">number3 : String? = readLine()</span>
+
+<span class="s0">if</span><span class="s1">(!(!(number1!! &gt;= number2.toString()) || !(number1 &gt;= number3.toString()))) {</span>
+    <span class="s1">println(</span><span class="s2">&quot;</span><span class="s0">$</span><span class="s1">number1 </span><span class="s2">is the Greatest!&quot;</span><span class="s1">)</span>
+<span class="s1">} </span><span class="s0">else if </span><span class="s1">(number2 != </span><span class="s0">null</span><span class="s1">) {</span>
+    <span class="s0">if </span><span class="s1">(!(number2 &gt;= number1 || number2 &gt;= number3.toString())) {</span>
+        <span class="s1">println(</span><span class="s2">&quot;</span><span class="s0">$</span><span class="s1">number2 </span><span class="s2">is the Greatest!&quot;</span><span class="s1">)</span>
+    <span class="s1">} </span><span class="s0">else </span><span class="s1">{</span>
+        <span class="s1">println(</span><span class="s2">&quot;</span><span class="s0">$</span><span class="s1">number3 </span><span class="s2">is the Greatest!&quot;</span><span class="s1">)</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+    <span class="s0">val </span><span class="s1">x: Int = </span><span class="s3">4</span>
+    <span class="s0">val </span><span class="s1">y: Int = </span><span class="s3">6</span>
+
+    <span class="s0">val </span><span class="s1">sum = x + y</span>
+
+    <span class="s1">println(</span><span class="s2">&quot;The sum is: </span><span class="s0">$</span><span class="s1">sum</span><span class="s2">&quot;</span><span class="s1">)</span>
+
+
+
+
+<span class="s1">}</span></pre>
+</body>
+</html>
